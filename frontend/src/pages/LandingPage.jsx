@@ -145,17 +145,7 @@ const LandingPage = () => {
                 <FiArrowRight className="ml-2 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
               
-              <Link 
-                to="/login" 
-                className="group flex items-center space-x-2 text-gray-700 hover:text-red-500 font-medium transition-colors px-6 py-4"
-              >
-                <div className="w-10 h-10 rounded-full bg-white shadow-md flex items-center justify-center group-hover:shadow-lg transition-shadow">
-                  <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M6.3 2.841A1.5 1.5 0 004 4.11v11.78a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"></path>
-                  </svg>
-                </div>
-                <span>Watch Demo</span>
-              </Link>
+              
             </motion.div>
 
             {/* Feature Highlights */}
